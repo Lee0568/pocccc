@@ -6,13 +6,17 @@ There are more than a thousand users using it across the entire network.
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/2fd69da1-5873-4b33-84cc-4b2e556148e0" />
 <img width="1920" height="938" alt="image" src="https://github.com/user-attachments/assets/acb5fdc1-f678-42e3-b5b5-34e50222fc1f" />
 
-fofa：icon_hash="2062026853"
+fofa：icon_hash="2062026853" && body="20250813"
 
-quack：favicon: "f51746305f07a64eafa401adab364ad9"
+quack：favicon: "f51746305f07a64eafa401adab364ad9" and body:"20250813"
 
 ## Vulnerability Analysis:
 
 payload``?gohome="%3bwindow%5b%27al%27%2b%27ert%27%5d%281%29%3bvar%20test%3d"xss``
+
+The XSS vulnerability can be triggered directly on the login page by appending a malicious payload to the URL.The exploitable versions range from 20240129 to the latest version 20250813, totaling 18 versions.
+
+This website is the official version list from Weaver (Fanwei).https://emobile.weaver.com.cn/emp/download/log.html
 
 The user can control the "gohome" parameter, and the input text is echoed on the front-end interface.And there is no filtering of quotation marks and semicolons.The user can close the preceding quotation marks and escape from the original JavaScript statement.
 

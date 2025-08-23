@@ -2,7 +2,7 @@
 
 ## System fingerprint status The system fingerprint status is as follows:  
  
-There are more than a thousand users using it across the entire network.
+Over a hundred thousand users throughout the network use it throughout the network.
 <img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/2fd69da1-5873-4b33-84cc-4b2e556148e0" />
 <img width="1920" height="938" alt="image" src="https://github.com/user-attachments/assets/acb5fdc1-f678-42e3-b5b5-34e50222fc1f" />
 
